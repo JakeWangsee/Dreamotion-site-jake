@@ -1,1 +1,1 @@
-// multilingual redirect script
+// lang redirect script placeholder

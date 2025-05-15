@@ -1,35 +1,26 @@
 
-<nav style="background: #fff; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); display: flex; justify-content: space-between;">
-  <div><a href="index.html" style="font-weight: bold; font-size: 20px; color: #e85a4f;">Dreamotion</a></div>
-  <div style="display: flex; gap: 20px;">
-    <a href="index.html">Home</a>
-    <div class="dropdown">
-      <a href="products.html">Products ▾</a>
-      <div class="dropdown-content" style="position: absolute; background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: none; padding: 10px; z-index: 1000;">
-        <a href="turnkey.html">Turnkey</a>
-        <a href="slides.html">Slides</a>
-        <a href="ballpools.html">Ball Pools</a>
-        <a href="sandpits.html">Sand Pits</a>
-        <a href="trampoline.html">Trampolines</a>
-        <a href="carousel.html">Carousels</a>
-        <a href="airball.html">Airball Machines</a>
-        <a href="adventure.html">Adventure Zones</a>
-        <a href="reception.html">Reception Desks</a>
-        <a href="custom-request.html">Custom Requests</a>
-      </div>
-    </div>
-    <a href="blog.html">Blog</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-    <div style="margin-left: 20px;">
-      <a href="index.html" style="margin-right: 10px;">EN</a> | <a href="index-cn.html">中文</a>
-    </div>
+<header class="site-header">
+  <div class="container">
+    <div class="logo"><a href="index.html">Dreamotion</a></div>
+    <nav class="main-nav">
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="products.html">Products</a>
+          <ul class="dropdown-menu">
+            <li><a href="turnkey.html">Turnkey</a></li>
+            <li><a href="slides.html">Slides</a></li>
+            <li><a href="sandpits.html">Sandpits</a></li>
+            <li><a href="ballpools.html">Ball Pools</a></li>
+            <li><a href="trampoline.html">Trampolines</a></li>
+            <li><a href="reception.html">Reception</a></li>
+            <li><a href="themes.html">Themes</a></li>
+          </ul>
+        </li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
   </div>
-</nav>
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const drop = document.querySelector('.dropdown');
-    drop.addEventListener('mouseover', () => drop.querySelector('.dropdown-content').style.display = 'block');
-    drop.addEventListener('mouseleave', () => drop.querySelector('.dropdown-content').style.display = 'none');
-  });
-</script>
+</header>

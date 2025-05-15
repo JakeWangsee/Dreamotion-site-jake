@@ -339,3 +339,79 @@ p {
   color: #444;
   font-size: 14px;
 }
+
+/* 🔧 页面留白与层级优化 */
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #00aa88;
+  margin: 12px auto 0;
+  border-radius: 2px;
+}
+
+body, p {
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.1px;
+  color: #333;
+}
+
+/* FAQ 动画增强 */
+.faq details[open] p {
+  animation: fadeIn 0.3s ease-in;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* 表单布局左右结构 */
+.contact-section {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+.contact-section .contact-info {
+  flex: 1 1 280px;
+}
+.contact-section .contact-form {
+  flex: 1 1 380px;
+}
+
+/* 移动端卡片限制为2列 */
+@media (max-width: 768px) {
+  .product-grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .product-card {
+    width: 45%;
+    min-width: 200px;
+  }
+}

@@ -566,3 +566,20 @@ nav a {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
 }
+
+@media (max-width: 768px) {
+  h1 { font-size: 26px; }
+  h2 { font-size: 20px; }
+  .hero-btn, .read-more, .contact-form button {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+  .product-gallery, .product-benefits, .steps-horizontal {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

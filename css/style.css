@@ -583,3 +583,36 @@ nav a {
     justify-content: center;
   }
 }
+
+.hero { text-align: center; background: linear-gradient(#e3f2fd, #ffffff); padding: 60px 20px; }
+.hero-content h1 { font-size: 2.5rem; font-weight: 700; margin-bottom: 12px; }
+.hero-actions .hero-btn { margin: 8px; padding: 14px 24px; border-radius: 30px; font-weight: 600; }
+
+.section { padding: 60px 20px; text-align: center; }
+.feature-grid, .industry-grid, .testimonial-grid, .blog-grid {
+  display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;
+}
+.feature-box, .industry-card, .testimonial, .blog-card {
+  background: #fff; padding: 20px; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  max-width: 300px; flex: 1;
+}
+
+.video-scroll {
+  display: flex; overflow-x: auto; gap: 20px; padding: 20px;
+}
+.video-scroll video {
+  max-width: 300px; border-radius: 16px;
+}
+
+.client-wall {
+  padding: 30px 0; background: #f0f0f0; overflow: hidden;
+}
+.client-wall .logo-strip {
+  display: flex; animation: scrollX 25s linear infinite; gap: 40px;
+}
+.client-wall img { height: 40px; }
+
+@keyframes scrollX {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}

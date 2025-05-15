@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.nav {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.nav .menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.nav .dropdown {
+  display: none;
+  position: absolute;
+  background: #fff;
+}
+.nav li:hover .dropdown {
+  display: block;
+}
+.hero {
+  background: #eee;
+  padding: 100px 20px;
+}
+.why, .catalog {
+  padding: 60px 20px;
+}
+.reasons, .products {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.footer {
+  background: #111;
+  color: #fff;
+  padding: 40px 20px;
+  margin-top: 60px;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}

@@ -1,6 +1,1 @@
-
-body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-header { background: #eee; padding: 1em; text-align: center; }
-nav ul { list-style: none; padding: 0; display: flex; justify-content: center; gap: 20px; }
-main { padding: 2em; }
-footer { background: #222; color: #fff; text-align: center; padding: 1em; }
+body { font-family: Arial; }

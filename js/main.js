@@ -1,1 +1,2 @@
-console.log('Dreamotion site JS loaded.');
+
+console.log('Dreamotion site v3 loaded.');

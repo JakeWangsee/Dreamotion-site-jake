@@ -1,31 +1,120 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Index - Dreamotion</title>
-    <link rel="stylesheet" href="css/styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dreamotion - Indoor Playground Factory</title>
+  <meta name="description" content="Dreamotion is a professional indoor playground manufacturer based in China, providing custom design, production, and global delivery services." />
+  <meta name="keywords" content="Indoor Playground, Soft Play, Trampoline Park, Kids Amusement, Custom Slides, Ball Pool, Dreamotion" />
+  <meta name="author" content="Dreamotion Factory" />
+  <meta property="og:title" content="Dreamotion - Custom Indoor Playground Factory" />
+  <meta property="og:description" content="Explore our one-stop solution for kids playgrounds. Design, production and delivery — all under one roof." />
+  <meta property="og:image" content="assets/og-cover.jpg" />
+  <meta property="og:url" content="https://dreamotion-site.com" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="index.html">Home</a> |
-            <a href="products.html">Products</a> |
-            <a href="about.html">About</a> |
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
 
-    <main>
-        <h1>Index</h1>
-        <p>Welcome to the Index page of Dreamotion.</p>
-    </main>
+<header>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="products.html">Products</a> |
+    <a href="about.html">About</a> |
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
 
-    <footer>
-        <p>&copy; 2025 Dreamotion</p>
-    </footer>
+<main>
+  <section class="hero-intro">
+    <h2>Dreamotion · One-Stop Indoor Playground Manufacturer</h2>
+    <p>With 8+ years of experience and clients across Vietnam, UAE, Singapore, and Africa, we help our partners design, build, and grow immersive soft play experiences for kids.</p>
+    <div class="hero-buttons">
+      <a href="turnkey.html" class="button">Turnkey Projects</a>
+      <a href="slides.html" class="button">Custom Slides</a>
+    </div>
+  </section>
 
-    <script src="js/main.js"></script>
+  <section class="process">
+    <h3>Why Choose Dreamotion?</h3>
+    <div class="step">📐 Free Design Plan</div>
+    <div class="step">🏭 Factory Direct Production</div>
+    <div class="step">🚚 Global Delivery</div>
+    <div class="step">🛠️ On-Site Installation Support</div>
+  </section>
+
+  <section class="video-carousel">
+    <h3>Project Videos</h3>
+    <video src="assets/video1.mp4" controls poster="assets/blog1.jpg"></video>
+    <video src="assets/video2.mp4" controls poster="assets/blog2.jpg"></video>
+  </section>
+
+  <section class="industry-solutions">
+    <h3>Industry Solutions</h3>
+    <div class="solution-grid">
+      <div class="solution-card">
+        <img src="assets/icons/mall.png" alt="Mall" />
+        <h4>Shopping Malls</h4>
+        <p>Maximize foot traffic and ROI in high-traffic environments.</p>
+      </div>
+      <div class="solution-card">
+        <img src="assets/icons/daycare.png" alt="Daycare" />
+        <h4>Daycare & Schools</h4>
+        <p>Boost interaction and development with themed play.</p>
+      </div>
+      <div class="solution-card">
+        <img src="assets/icons/hotel.png" alt="Hotel" />
+        <h4>Hotels & Resorts</h4>
+        <p>Elevate guest experience with in-house play areas.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <h3>What Clients Say</h3>
+    <blockquote>“Dreamotion helped us open our first park in Vietnam – amazing service and quality.” — Nguyen, VN</blockquote>
+    <blockquote>“Reliable, turnkey solution. Dreamotion is our go-to for mall setups.” — Sarah, UAE</blockquote>
+    <blockquote>“Fast delivery, great design, and kids love it.” — James, South Africa</blockquote>
+  </section>
+
+  <section class="homepage-blog">
+    <h3>Insights & Blog</h3>
+    <div class="blog-cards">
+      <div class="blog-card">
+        <img src="assets/blog1.jpg" alt="Blog 1">
+        <h4>Choosing the Right Equipment</h4>
+        <p>What to consider when building a safe and engaging playground.</p>
+      </div>
+      <div class="blog-card">
+        <img src="assets/blog2.jpg" alt="Blog 2">
+        <h4>How We Build</h4>
+        <p>From 3D design to your site — behind the scenes of production.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 Dreamotion Playground Factory | 粤ICP备88888888号</p>
+</footer>
+
+<a href="https://wa.me/8613524015929" class="whatsapp-float" target="_blank">💬 Chat on WhatsApp</a>
+
+<script>
+(function() {
+  const userLang = navigator.language || navigator.userLanguage;
+  const langMap = {
+    'zh': 'index-cn.html',
+    'ja': 'index-jp.html',
+    'ar': 'index-ar.html',
+    'ru': 'index-ru.html'
+  };
+  if (langMap[userLang.slice(0, 2)]) {
+    window.location.href = langMap[userLang.slice(0, 2)];
+  }
+})();
+</script>
+<script src="js/main.js"></script>
 </body>
 </html>

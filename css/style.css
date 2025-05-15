@@ -288,3 +288,54 @@ p {
   font-size: 14px;
   color: #666;
 }
+
+.contact-info {
+  text-align: center;
+  margin: 30px auto 40px;
+  font-size: 16px;
+}
+.contact-info a {
+  color: #00aa88;
+  font-weight: bold;
+}
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contact-form input, .contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+.contact-form button {
+  background: #00aa88;
+  color: white;
+  border: none;
+  padding: 14px;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.contact-form button:hover {
+  background: #00775f;
+}
+.faq {
+  margin-top: 60px;
+}
+.faq details {
+  margin-bottom: 15px;
+}
+.faq summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: #00aa88;
+}
+.faq p {
+  margin: 10px 0 0 10px;
+  color: #444;
+  font-size: 14px;
+}

@@ -616,3 +616,32 @@ nav a {
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
 }
+
+.about-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.ceo-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+.social-links a {
+  background: #eee;
+  padding: 10px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #333;
+}
